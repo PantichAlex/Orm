@@ -2,8 +2,15 @@ const path = require("path");
 
 module.exports = {
 
+	 // css: {
+	 //    loaderOptions: {
+	 //      sass: {
 
-  devServer:{
-  	proxy: "http://localhost:5000"
-  }
+	 //        data: `@import "~@/assets/_main.sass`
+	 //      }
+	 //    }
+	 //  },
+	  devServer:{
+	  	proxy: 'http://localhost:5000'
+	  }
 }
